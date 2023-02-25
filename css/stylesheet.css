@@ -26,3 +26,9 @@ header, footer {
     padding: 5px;
     display: inline-block;
 }
+
+#main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 15px;
+}
