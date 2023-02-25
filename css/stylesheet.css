@@ -10,7 +10,8 @@ body {
     background-color: #F3F2FF;
 }
 
-nav {
+header, footer {
     background-color: palegreen;
     text-align: center;
 }
+
