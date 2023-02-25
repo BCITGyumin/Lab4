@@ -1,6 +1,9 @@
 h1 {
     color:#1E546E;
-    font-family: 'Montserrat', sans-serif;;
+}
+
+h1.h1-index {
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
