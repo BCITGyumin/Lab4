@@ -6,10 +6,7 @@ body {
 --------------------------------------------*/
 h1 {
     color:#1E546E;
-}
-
-h1.h1-header {
-    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
 }
 
 header, footer {
@@ -33,6 +30,10 @@ header, footer {
 
 /* index.html 
 --------------------------------------------*/
+h1.h1-header {
+    font-family: 'Montserrat', sans-serif;
+}
+
 #main-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
