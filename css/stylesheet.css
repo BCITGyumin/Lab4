@@ -1,9 +1,9 @@
-/* Header 
---------------------------------------------*/
 body {
     background-color: #F3F2FF;
 }
 
+/* Header 
+--------------------------------------------*/
 h1 {
     color:#1E546E;
 }
@@ -17,6 +17,8 @@ header, footer {
     text-align: center;
 }
 
+/* Navigation Bar 
+--------------------------------------------*/
 #select-menu {
     list-style-type: none;
     padding: 0;
@@ -29,8 +31,25 @@ header, footer {
     display: inline-block;
 }
 
+/* index.html 
+--------------------------------------------*/
 #main-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
     column-gap: 15px;
+}
+
+/* courses.html 
+--------------------------------------------*/
+.courses-menu {
+    flex-direction: column;
+}
+
+#courses-list {
+    background-color: none;
+}
+
+.courses-list-content-top {
+    border-bottom: white 3px groove;
+    margin-bottom: 10px;
 }
