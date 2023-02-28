@@ -1,13 +1,15 @@
+/* Header 
+--------------------------------------------*/
+body {
+    background-color: #F3F2FF;
+}
+
 h1 {
     color:#1E546E;
 }
 
 h1.h1-header {
     font-family: 'Montserrat', sans-serif;
-}
-
-body {
-    background-color: #F3F2FF;
 }
 
 header, footer {
