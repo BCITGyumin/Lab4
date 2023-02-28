@@ -46,11 +46,31 @@ h1.h1-header {
     flex-direction: column;
 }
 
-#courses-list {
-    background-color: none;
-}
-
-.courses-list-content-top {
+.courses-list-content {
     border-bottom: white 3px groove;
     margin-bottom: 10px;
+}
+
+/* responsive layouts
+--------------------------------------------*/
+
+@media (min-width: 600px) {
+    .courses-menu {
+        flex-direction: row;
+    }
+
+    .courses-list-content {
+        border-bottom: rgb(50, 50, 50) 2px groove;
+    }
+
+    .courses-content-layout {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 30px
+    }
+
+    .courses-paragraph {
+        grid-column: 2 / -1;
+        grid-row: 1 / 1
+    }
 }
