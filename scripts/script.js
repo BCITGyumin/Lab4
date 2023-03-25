@@ -30,3 +30,18 @@ if (!courseFound) {
 }
 
 console.log(courseList);
+
+//createCourseArray Function
+function createCourseArray()
+{
+    const courseArray = [];
+    const courseNameArray = document.getElementsByClassName("courseName");
+    const courseDateArray = document.getElementsByClassName("courseDate");
+    for (let i = 0 ; i < courseNameArray.length; i++)
+    {
+        courseArray.push({'code': courseNameArray[i].innerText, 'date': courseDateArray[i].innerText})
+    };
+    return courseArray;
+};
+
+console.log(createCourseArray())
